@@ -9,7 +9,7 @@ I am keeping each task in its own folder so the code, tests, and notes stay easy
 | Task | Project | Status |
 |---|---|---|
 | [Task 1 — Rule-Based AI Chatbot](./task-1-rule-based-chatbot/) | A terminal chatbot built with explicit rules and a continuous interaction loop | Completed |
-| Task 2 | To be added | Planned |
+| [Task 2 — Data Classification Using AI](./task-2-data-classification/) | A supervised-learning pipeline that predicts e-commerce order status | Completed |
 | Task 3 | To be added | Planned |
 
 ## Running a task

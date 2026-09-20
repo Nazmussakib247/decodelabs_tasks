@@ -1,0 +1,85 @@
+{
+  "dataset_rows": 1200,
+  "training_rows": 960,
+  "testing_rows": 240,
+  "target": "OrderStatus",
+  "classes": [
+    "Cancelled",
+    "Delivered",
+    "Pending",
+    "Returned",
+    "Shipped"
+  ],
+  "algorithm": "Decision Tree",
+  "accuracy": 0.1917,
+  "macro_f1": 0.1729,
+  "confusion_matrix": [
+    [
+      12,
+      4,
+      11,
+      18,
+      5
+    ],
+    [
+      8,
+      2,
+      16,
+      15,
+      5
+    ],
+    [
+      9,
+      5,
+      14,
+      15,
+      4
+    ],
+    [
+      6,
+      7,
+      20,
+      15,
+      2
+    ],
+    [
+      12,
+      5,
+      18,
+      9,
+      3
+    ]
+  ],
+  "classification_report": {
+    "Cancelled": {
+      "precision": 0.2553,
+      "recall": 0.24,
+      "f1_score": 0.2474,
+      "support": 50
+    },
+    "Delivered": {
+      "precision": 0.087,
+      "recall": 0.0435,
+      "f1_score": 0.058,
+      "support": 46
+    },
+    "Pending": {
+      "precision": 0.1772,
+      "recall": 0.2979,
+      "f1_score": 0.2222,
+      "support": 47
+    },
+    "Returned": {
+      "precision": 0.2083,
+      "recall": 0.3,
+      "f1_score": 0.2459,
+      "support": 50
+    },
+    "Shipped": {
+      "precision": 0.1579,
+      "recall": 0.0638,
+      "f1_score": 0.0909,
+      "support": 47
+    }
+  }
+}
