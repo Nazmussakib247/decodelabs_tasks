@@ -1,0 +1,61 @@
+{
+  "image": "/home/ubuntu/logic-01-rule-based-chatbot/task-4-text-recognition/data/sample_receipt.png",
+  "engine": "Tesseract OCR via pytesseract",
+  "text": "LOGIC MART Order: ORD-2026-004 Item: Al Notebook Total: $24.99 Thank you for learning!",
+  "average_confidence": 93.85,
+  "tokens": [
+    {
+      "text": "LOGIC",
+      "confidence": 96.0
+    },
+    {
+      "text": "MART",
+      "confidence": 95.0
+    },
+    {
+      "text": "Order:",
+      "confidence": 92.0
+    },
+    {
+      "text": "ORD-2026-004",
+      "confidence": 91.0
+    },
+    {
+      "text": "Item:",
+      "confidence": 81.0
+    },
+    {
+      "text": "Al",
+      "confidence": 96.0
+    },
+    {
+      "text": "Notebook",
+      "confidence": 96.0
+    },
+    {
+      "text": "Total:",
+      "confidence": 95.0
+    },
+    {
+      "text": "$24.99",
+      "confidence": 96.0
+    },
+    {
+      "text": "Thank",
+      "confidence": 96.0
+    },
+    {
+      "text": "you",
+      "confidence": 96.0
+    },
+    {
+      "text": "for",
+      "confidence": 96.0
+    },
+    {
+      "text": "learning!",
+      "confidence": 94.0
+    }
+  ],
+  "token_count": 13
+}
